@@ -17,7 +17,15 @@ def id_generator
 end
 
 def my_hash_creator(key, value)
-  # return a hash that includes the key and value parameters passed into this method
+h = {"colors"  => ["red", "blue", "green"],
+     "letters" => ["a", "b", "c" ]}
+h.assoc("letters")  #=> ["letters", ["a", "b", "c"]]
+h.assoc("foo")      #=> nil
+
+
+
+
+
 end
 
 def read_from_hash(hash, key)
