@@ -19,8 +19,9 @@ end
 def my_hash_creator(key, value)
 h = {"colors"  => ["red", "blue", "green"],
      "letters" => ["a", "b", "c" ]}
-h.assoc("letters")  #=> ["letters", ["a", "b", "c"]]
-h.assoc("foo")      #=> nil
+h.assoc("letters")  
+h.assoc("foo")      
+end
 
 
 
